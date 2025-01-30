@@ -23,6 +23,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Vote - Minewolf</title>
+</svelte:head>
+
 <h1 class="text-4xl mb-2 font-bold">Vote Links</h1>
 <nav>
 	<ul class="flex flex-col gap-1">

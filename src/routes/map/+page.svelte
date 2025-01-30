@@ -1,3 +1,7 @@
+<svete:head>
+	<title>Map - Minewolf</title>
+</svete:head>
+
 <iframe
 	title="Server Map"
 	src="https://map.minewolf.net"

@@ -5,6 +5,10 @@
 	const pics = Object.values(import.meta.glob('$lib/screenshots/*', { eager: true, as: 'url' }));
 </script>
 
+<svelte:head>
+	<title>MINEWOLF - Survival Since 2016</title>
+</svelte:head>
+
 <div class="text-center">
 	<div class="max-w-lg m-auto">
 		<h1 class="text-4xl font-bold my-10 mb-2">
