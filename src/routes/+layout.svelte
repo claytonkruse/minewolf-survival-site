@@ -7,13 +7,21 @@
 </script>
 
 <div class="flex h-full min-h-fit flex-col">
-	<header class="flex px-10 bg-zinc-900">
+	<header class="flex px-10 bg-zinc-900 w-full">
 		<a href="/"><img src={logo} alt="Minewolf Logo" /></a>
-		<nav>
+		<nav class="grow">
 			<ul class="flex">
 				<li><Button variant="ghost" href="/map/">Map</Button></li>
-				<li><Button variant="ghost" href="/discord/" target="_blank">Discord</Button></li>
 				<li><Button variant="ghost" href="/vote/">Vote</Button></li>
+			</ul>
+		</nav>
+		<nav>
+			<ul>
+				<li>
+					<Button variant="ghost" href="/discord/" rel="noopener nofollow" target="_blank"
+						>Discord</Button
+					>
+				</li>
 			</ul>
 		</nav>
 	</header>
