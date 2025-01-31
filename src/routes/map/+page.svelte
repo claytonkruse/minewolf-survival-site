@@ -1,6 +1,6 @@
-<svete:head>
+<svelte:head>
 	<title>Map - Minewolf</title>
-</svete:head>
+</svelte:head>
 
 <iframe
 	title="Server Map"
