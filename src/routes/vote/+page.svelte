@@ -1,6 +1,10 @@
 <script lang="ts">
 	const listings = [
 		{
+			name: 'Minewolf',
+			href: 'https://minewolf.net/servers/1/vote/'
+		},
+		{
 			name: 'Planet Minecraft',
 			href: 'https://www.planetminecraft.com/server/minewolf-5894685/vote'
 		},
